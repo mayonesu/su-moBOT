@@ -1,4 +1,4 @@
-# su-moBOT
+# スーモBOT
 
 ## Description
 これはDiscord用のBOTスクリプトです。
