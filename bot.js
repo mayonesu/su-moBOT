@@ -33,6 +33,7 @@ client.on('message', message => {
         voiceChannel.join().then(connection => {
             message.channel.send(':new_moon_with_face:ダン:boom:ダン:boom:ダン:boom:シャーン:notes:スモ:full_moon_with_face:スモ:new_moon_with_face:スモ:full_moon_with_face:スモ:new_moon_with_face:スモ:full_moon_with_face:スモ:new_moon_with_face:ス～～～モ:arrow_heading_up:スモ:new_moon_with_face:スモ:full_moon_with_face:スモ:new_moon_with_face:スモ:full_moon_with_face:スモ:new_moon_with_face:スモ:full_moon_with_face:ス～～～モ:arrow_heading_down::sun_with_face:')
             const dispatcher = connection.playFile('スーモの曲(mp3)のファイル名を入れる');
+            //mp3ファイルはbot.jsがあるフォルダに置いてください
             dispatcher.on('end', reason => {
                 connection.disconnect();
             });
